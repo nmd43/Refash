@@ -1,0 +1,13 @@
+/* src/Logo/Logo.css */
+.logo {
+    position: absolute;
+    top: 10px; /* Adjust the top position as needed */
+    left: 10px; /* Adjust the left position as needed */
+    z-index: 1; /* Ensure it's above other elements */
+  }
+  
+  .logo img {
+    width: 100px; /* Adjust the width as needed */
+    height: auto; /* Maintain aspect ratio */
+  }
+  

@@ -1,0 +1,76 @@
+/* src/CameraButton.css */
+.camera-button-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #8B9C5C;
+  }
+  
+.camera-button {
+  font-size: 1.5rem;
+  background-color: #8B9C5C;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.camera-button:hover {
+  background-color: #A98467;
+}
+
+.camera-icon{
+  color: #F0EAD2
+}
+
+.close-button-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.close-button {
+  background-color: red;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1rem;
+}
+
+.close-button:hover {
+  background-color: darkred;
+}
+
+.mirrored-video {
+  transform: scaleX(-1); /* Flip the video horizontally */
+}
+
+.take-picture-button {
+  background-color: green;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1rem;
+  margin-left: 10px; 
+}
+
+.take-picture-button:hover {
+  background-color: darkgreen;
+}
+
+.captured-image {
+  margin-top: 20px;
+}
+
+.captured-image img {
+  max-width: 100%;
+}
+
+.mirrored-image {
+  transform: scaleX(-1); 
+}
